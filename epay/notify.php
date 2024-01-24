@@ -11,7 +11,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 function convert_helper($invoiceid, $amount)
 {
-	$setting = Capsule::table("tblpaymentgateways")->where("gateway", "alipay")->where("setting", "convertto")->first();
+	$setting = Capsule::table("tblpaymentgateways")->where("gateway", "epay")->where("setting", "convertto")->first();
 	// 系统没多货币 , 直接返回
 	if (empty($setting)) {
 		return $amount;
