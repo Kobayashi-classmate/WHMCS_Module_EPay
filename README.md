@@ -5,3 +5,7 @@
 ## 赞助
 
 - USDT TRC20 地址 `TNU2wK4yieGCWUxezgpZhwMHmLnRnXRtmu`
+
+## 原仓库
+
+- https://gitlab.com/ZeroTimeTeam/WHMCS_Module_EPay
